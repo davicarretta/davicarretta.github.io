@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: #101213;
+    scroll-behavior: smooth;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+header {
+    width: 100%;
+    height: 16vh;
+    background-color: #101213;
+    position: fixed;
+    top: 0;
+    border-bottom: 0.45vh solid white;
+    z-index: 2;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    height: 16vh;
+    gap: 30vw;
+}
+
+header nav h1 {
+    font-family: 'Crimson';
+    font-size: 3vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+header nav ul li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.25vw;
+    color: white;
+    display: flex;
+}
+
+header nav ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.25vw;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(191, 196, 192);
+}
+
+main {
+    width: 100%;
+    background-color: #101213;
+}
+
+section#home {
+    padding-top: 20vh;
+    width: 100%;
+    background-color: #101213;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20vw;
+}
+
+div#apresentacao {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 2vw;
+    bottom: 4vh;
+}
+
+div#texto1 {
+    position: relative;
+    font-size: 3.75vw;
+    color: rgb(191, 196, 192);
+}
+
+span#cores1 {
+    color: rgb(191, 196, 192);
+}
+
+
+div#texto2 {
+    font-size: 1.95vw;
+    position: relative;
+
+}
+
+div#texto3 {
+    font-size: 2.625vw;
+    position: relative;
+    top: 3vh;
+}
+
+span#cores2 {
+    font-size: 3.75vw;
+    color: rgb(191, 196, 192);
+}
+
+div#texto4 {
+    font-size: 1.95vw;
+    position: relative;
+    top: 1.3vw;
+}
+
+span.cores3 {
+    text-decoration: 1px underline;
+    text-decoration-color: rgb(191, 196, 192)
+}
+
+
+div#foto {
+    width: 28.8vw;
+    height: 79.04vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    
+}
+
+
+img {
+    width: 28.8vw;
+    height: 79.04vh;
+    border-bottom: 0.45vh solid white;
+    border-bottom-left-radius: 40px;
+    border-right: 0.45vh solid white;
+    border-top-right-radius: 40px;
+}
+    
+
+section#portfolio {
+    padding-top: 16vh;
+    padding-bottom: 16vh;
+    width: 100%;
+    height: 30vh;
+    background-color: #101213;
+}
+
+div#ordem {
+    position: absolute;
+    left: 5.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 13vh;
+}
+
+h1#portfolioh1 {
+    margin-top: 2vh;
+    display: flex;
+    font-size: 3.75vw;
+    height: 0.96vh;
+    color: rgb(191, 196, 192);
+}
+
+p#portfoliop {
+    font-size: 2.25vw;
+    font-family: sans-serif;
+    margin-right: 5.5vw;
+}
+
+section#sobre {
+    padding-top: 8vh;
+    width: 100%;
+    height: 90vh;
+    background-color: #101213;
+}
+
+h1#sobreh1 {
+    padding-top: 10vh;
+    font-size: 3.75vw;
+    margin-left: 5.5vw;
+    margin-bottom: 6vh;
+    color: rgb(191, 196, 192);
+}
+
+
+div#sobrediv1 {
+    display: block;
+    align-items: center;
+    margin-left: 5.5vw;
+    margin-right: 5.5vw;
+
+}
+
+div#lorem1 {
+    font-size: 2.25vw;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5vw;
+}
+
+div#lorem2 {
+    margin-top: 10vh;
+    font-size: 2.25vw;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+p.loremp {
+    margin-top: 5vh;
+    max-width: 44vw;
+    max-height: 30vh;
+}
+
+section#contato {
+    width: 100%;
+    height: 50vh;
+    background-color: #101213;
+}
+
+h1#contatosh1 {
+    padding-top: 4vh;
+    font-size: 3.75vw;
+    margin-left: 5.5vw;
+    margin-bottom: 6vh;
+    color: rgb(191, 196, 192);
+}
+
+div#contatosdiv1 {
+    display: inline-block;
+    align-items: center;
+
+}
+
+h3#contatoh3 {
+    font-family: sans-serif;
+    font-size: 2.25vw;
+    margin-left: 5.5vw;
+}
+
+ul#contatoul {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 2.25vw;
+    margin-left: 7.5vw;
+}
+
+span.contato:hover { 
+    color: rgb(191, 196, 192);
+    -moz-user-select: all;
+    user-select: all;
+}
+
+footer {
+    border-top: 0.45vh solid white;
+    width: 100%;
+    height: 10vh;
+    background-color: #101213;
+    display: flex;
+    align-items: center;
+}
+p#footerp {
+    margin-left: 5.5vw;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+}
